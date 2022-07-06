@@ -1,4 +1,223 @@
-.banner-container{
-display: flex;
+*{
+    margin: 0;
+    padding: 0;
 
 }
+
+
+.banner-container{
+    width: 100%;
+    height: 700px;
+    background-image: url(images/donation12.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-content{
+ height: 100%;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ padding-top: 15%;
+ color: aliceblue;
+
+}
+
+.banner-content h1{
+    text-align: center;
+    font-size: 70px;
+}
+.banner-content p{
+ font-size: 20px;
+ width: 40%;
+ padding-left: 30%;
+ padding-top: 15px;
+}
+.banner-content button{
+    width: 10%;
+    height: 80px;
+    font-size: 18px;
+    color: white;
+    background-color: red;
+    border: none;
+    margin-top: 20px;
+}
+
+
+.sec1{
+    height: 700px;
+    width: 100%;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 15%;
+
+}
+
+.sec1-content h1{
+    font-size: 50px;
+
+}
+.sec1-content p{
+    width: 30%;
+    margin-top: 15px;
+    margin-left:550px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+
+}
+.box-container{
+    position: relative;
+    height: 300px;
+    width: 1200px;
+    margin-top: 50px;
+    padding-left: 400px;
+    text-align: center;
+} 
+
+.box-container .box{
+    position: relative;
+    height: 110px;
+    width: 110px;
+    background-color: rgb(217, 207, 207);
+    float:left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 20px;
+
+}
+.box-container .content{
+    margin-top: 30px;
+    margin-left: 15px;
+text-align: center;   
+font-size: 30px;
+color: black;
+}
+
+.amount-form{
+    margin-bottom: 20px;
+    
+}
+.amount-form h2{
+    font-size: 30px;
+    color:black;
+}
+.amount-form .input-box {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.amount-form .input-box input
+.amount-form .input-box textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
+.sec1 button{
+    margin-top: 10px;
+    padding: 10px;
+    width: 13%;
+    height: 70px;
+    padding-bottom: 50px ;
+    margin-bottom: 200px;
+    font-size: 20px;
+    background-color: orangered;
+    border: none;
+}
+.content{
+	width: 40%;
+	margin-top: 200px;
+	margin-bottom: 100px;
+	color: #E6E7EA;
+	font-weight: 1000;
+	font-size: 16px;
+}
+.services{
+	
+ background-color: aquamarine;
+	padding: 20px 5px;
+	
+
+	}
+
+    .wrapper{
+        width: 80%;
+        
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+.single{
+	
+	width: 28%;
+	float: left;
+	padding: 12px 30px;
+}
+
+.single: last-child{
+	border-right: none;
+}
+
+.single-title{
+    overflow: hidden;
+}
+.single_img{
+	width: 20%;
+	float: left;
+}
+.single_img img{
+	width: 100%;
+	
+}
+
+.single_head{
+	width: 70%;
+	float: right;
+	margin: 0px;
+}
+.single_head h1{
+	color: green;
+	font-size: 30px;
+	font-weight: 400;
+	margin: 0;
+
+}
+
+.single_text p{
+	color: white;
+	font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer{
+    background-color: black;
+    height: auto;
+    width: 100%;
+    padding-top: 50px;
+
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
